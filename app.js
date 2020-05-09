@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const DataBase = require('./DataBase/Database');
+
 const UserRoute = require('./Routes/UserRoute');
 
 

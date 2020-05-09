@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router();
-const {grantAccessToken,authenticateToken}  =require('../Auth/Auth')
+const {grantAccessToken,authenticateToken}  = require('../Auth/Auth')
 
 router.use((req,res,next)=>{
     next();
@@ -17,7 +17,7 @@ router.post('/login',(req,res)=>{
 });
 router.route('/')
 .post((req,res)=>{
-    res.send('POST REQUEST RECIEVED')
+    
 })
 
 .get(authenticateToken,(req,res)=>{
