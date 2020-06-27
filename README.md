@@ -3,7 +3,7 @@ Summary: The app would allow people to login, and upload images.
 Details of project:   Part 1 - Basic login, and users management 
 - Two types of dashboard users are: Users and Admins 
 - Users/Admins would log in using their email address or employee id (login screen design will be provided) 
-- Users/Admins can signup for new accounts by filling up a form (form fields will be provided) 
+- Users/Admins can signup for new accounts by filling up a form (fullname , email , password,dob) 
 When Logged in:  
 - Users/Admins can change their password and other basic info  
 - Admins can create, edit, delete new User/Admin accounts  
