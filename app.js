@@ -4,7 +4,7 @@ const app = express();
 
 const UserRoute = require('./Routes/UserRoute');
 
-
+const database = require('./DataBase/Database')
 const port = 8080;
 app.use(express.json());
 
