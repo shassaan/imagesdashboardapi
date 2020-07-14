@@ -6,7 +6,7 @@ router.use((req,res,next)=>{
     next();
 });
 
-
+// admin login verification 
 router.post('/login',(req,res)=>{
     const {email,password} = req.body;
     if(email == "admin@gmail.com" && password == "123"){
