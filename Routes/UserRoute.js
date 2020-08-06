@@ -16,7 +16,7 @@ router.post('/login',(req,res)=>{
     }
 });
 router.route('/')
-.post((req,res)=>{
+.post(authenticateToken,(req,res)=>{
     
 })
 
